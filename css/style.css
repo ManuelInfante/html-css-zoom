@@ -10,4 +10,60 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.float_right{
+    float: right;
+}
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.flexbox{
+    display: flex;
+}
 /* COMMONS */
+
+/* Header Buttons*/
+
+header{
+    height: 5vh;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+header button{
+    padding: 5px;
+    background-image: linear-gradient(gray, black);
+    border: none;
+    border-radius: 5px;
+}
+
+header button a{
+    text-decoration: none;
+    color: white;
+} 
+
+header button:first-child a i{
+    margin-right: 10px;
+}
+/* Header Buttons*/
+
+/* Container User cams */
+
+#cams_container{
+    height: 85vh;
+    width: 100%;
+    background: black;
+}
+/* /Container User cams */
+
+/* Footer */
+
+footer{
+    height: 10vh;
+    background:gold
+}
+
+/* Footer */
